@@ -12,7 +12,7 @@ const List = ({ allCountries }) => {
                           <img
                             className="card-img-top"
                             src={country.flags.svg}
-                            alt="Card image cap"
+                            alt={`country image for ${country.name.common}`}
                           />
                       <div className="card-body">
                         <h5 className="card-title">{country.name.common}</h5>
